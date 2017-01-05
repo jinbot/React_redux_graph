@@ -3,6 +3,7 @@ import React,{ Component, PropTypes } from 'react';
 const defaultProps = {
   input: [0,0,0]
 }
+
 class GraphArea extends Component{
   constructor(props){
     super(props);
@@ -12,6 +13,7 @@ class GraphArea extends Component{
       'width':'210px',
       'border':'2px solid black'
     }
+
     const style= {
       'width':'50px',
       'backgroundColor':'red',
